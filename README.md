@@ -11,6 +11,14 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 - Optionally require that your inbox be empty (Inbox Zero) before you can release email (regardless of remaining release count)
 - Optionally enable "Impulse Control" which limits your ability to change settings if limits have been reached
 
+## Requirements
+- A Gmail account
+- Accept that gmail-hold only works if you exclusively use the official Gmail website or Gmail mobile apps (and the mobile apps require an extra step to release email). It will not work if you use any 3rd party apps or tools and you will not be able to access new email.
+- Accept that you will not be able to receive incoming messages until you release them, and that the app is designed to limit how many times in a day you can release them.
+- Accept that you can potentially run out of email releases in a day, leaving you unable to receive new messages until the next day (see FAQ for possible but not recommended work arounds).
+- Read the FAQ.
+- Use the app at your own risk.
+
 ## Installation
 1. Go to [Google Apps Scripts](https://script.google.com/home)
 2. Click 'New project'
@@ -37,6 +45,22 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 21. Next to `Application(s): Gmail`, click _Install_
 22. Go to your [Gmail](https://mail.google.com/mail/u/0/#inbox)
 23. A new mail icon should appear on the right side of the screen (make sure you are showing the side panel)
+24. gmail-hold is now installed; continue reading to set up the required filter
+
+## Configuring the gmail-hold Filter
+1. The filter is required to "hide" incoming email messages so you can later release them on your schedule
+2. Click the gmail-hold icon in the Gmail sidebar; this should open the app and show you some info an a _Release Email_ button
+3. Don't click anything; you can now close the sidebar
+  - This step was needed to create the label for you
+4. Click the gear icon at the top of Gmail, then click _See all settings_
+5. Click on _Filters and Blocked Addresses_
+6. Scroll to the bottom of your existing filters and click _Create a new filter_
+7. Next to `Doesn't have`, enter a long string of random characters (one recommendation is 'gmailHold123abc456def00000'); this will filter all messages that don't have this string, which should be _all_ messages, as none should contain this string
+8. Click _Create filter_
+9. Check the box next to `Skip the inbox (Archive it)`
+10. Check the box next to `Apply the label'` and choose _gmailHold_
+11. Click the _Create filter_
+12. Your filter should now be functional
 
 ## Using gmail-hold
 
