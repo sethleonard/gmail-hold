@@ -78,13 +78,17 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 # Customizing
 ### Change app name
 Change:
-`"addOns": {
+```
+"addOns": {
     "common": {
-      "name": "gmail hold",`
+      "name": "gmail hold",
+```
 to:
-`"addOns": {
+```
+"addOns": {
     "common": {
-      "name": "YOUR APP NAME HERE",`
+      "name": "YOUR APP NAME HERE",
+```
       
 ### Change app icon
 Change:
@@ -94,7 +98,7 @@ to:
 Make sure your icon is square or it will be stretched and look weird
 
 # Frequently Asked Questions
-#How can I uninstall gmail-hold?
+## How can I uninstall gmail-hold?
 You can uninstall by following these steps:
 1. Remove the filter you created that moves all of your incoming mail to the emailHold label
 2. Move all messages from the emailHold label to your inbox, either manually or by releasing them using the app button
@@ -103,13 +107,13 @@ You can uninstall by following these steps:
 5. Next to `Application(s): Gmail`, click _Uninstall_
 6. Remove the emailHold label
 
-#What if I need to access my email from my phone?
+## What if I need to access my email from my phone?
 First suggestion? Stop getting email on your phone (uninstall it if you're ready). You're out in the world; stay there and don't get sucked into messages that other people want you to read. If you have to have Gmail on your phone, you can release messages through the official Gmail apps or through the browser-based version of Gmail. However, in those apps, you cannot release email via the inbox, like you do in the desktop version. Instead, you'll need to open a message and scroll to the bottom to find the gmail-hold app icon (if you are at Inbox Zero, you'll have to search for a message to open or access one via the labels menu). Click the icon and you'll be able to release your email.
 
-#Can I release my email through a non-Gmail app (Apple Mail, iPhone Mail App, etc.)?
+## Can I release my email through a non-Gmail app (Apple Mail, iPhone Mail App, etc.)?
 No. gmail-hold only works with official Gmail apps and websites. You will be unable to release your email if use a different email program.
 
-#What if I really need to access my email for a specific message I know is there (verification email, time-sensitive message, etc.)?
+## What if I really need to access my email for a specific message I know is there (verification email, time-sensitive message, etc.)?
 You can always release your email in order to see a time-sensitive email. If you are out of releases, or don't want to "waste" one, the easiest thing to do is to search for the message directly. All messages can appear in search results, even if they are in the hidden label. As an example, if you are expecting a verification email from a website, you can search for "verify" or "verification" to find your message. You can also search by email address or name to find messages from specific people. Note: there are ways to "cheat" Contented Email and get your email anyways. If you find yourself doing that a lot, maybe you should just uninstall the app. Otherwise, do your best to embrace the spirit of the app and see what it feels like to not be disrupted or distracted by every incoming email message.
 
 # Contributing, Feature Requests, and Bug Reports
