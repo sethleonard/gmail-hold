@@ -121,4 +121,15 @@ No. gmail-hold only works with official Gmail apps and websites. You will be una
 You can always release your email in order to see a time-sensitive email. If you are out of releases, or don't want to "waste" one, the easiest thing to do is to search for the message directly. All messages can appear in search results, even if they are in the hidden label. As an example, if you are expecting a verification email from a website, you can search for "verify" or "verification" to find your message. You can also search by email address or name to find messages from specific people. Note: there are ways to "cheat" Contented Email and get your email anyways. If you find yourself doing that a lot, maybe you should just uninstall the app. Otherwise, do your best to embrace the spirit of the app and see what it feels like to not be disrupted or distracted by every incoming email message.
 
 # Contributing, Feature Requests, and Bug Reports
-See [CONTRIBUTING](CONTRIBUTING.md)
+
+## Contributing
+Honestly, I'm not a github or version control expert, so feel free to add a pull request, and I'll try to figure out how to implement if it makes sense to do so.
+
+## Feature Requests
+Use [Issues](https://github.com/sethleonard/gmail-hold/issues)
+
+## Bug Reports
+Use [Issues](https://github.com/sethleonard/gmail-hold/issues)
+
+## Donate
+If you like gmail-hold and want to show your appreciation, you can [pay for my next cup of tea](https://www.buymeacoffee.com/sethleonard)
