@@ -58,10 +58,21 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 7. Next to `Doesn't have`, enter a long string of random characters (one recommendation is 'gmailHold123abc456def00000'); this will filter all messages that don't have this string, which should be _all_ messages, as none should contain this string
 8. Click _Create filter_
 9. Check the box next to `Skip the inbox (Archive it)`
-10. Check the box next to `Apply the label'` and choose _gmailHold_
+10. Check the box next to `Apply the label'` and choose _emailHold_
 11. Click the _Create filter_
 12. Your filter should now be functional
 
 ## Using gmail-hold
+- Any time you want to release your email, click on the gmail-hold icon in the sidebar
+- You will see a record of how many times you've released your email for the day
+- Click _Release Email_ if it's available
+- Wait for it to finish processing (it's moving messages from the hidden label to your inbox)
+- You usually will need to click on the inbox icon again to refresh your inbox and reveal the new messages
+- Click on _Settings_ at the bottom of the sidebar to change:
+  - How many email releases you would like per day
+  - Whether you would like to require Inbox Zero to release emails
+  - Whether you would like to impose 'Impulse Control', which keeps you from changing the number of releases if you've already hit your limit, or from disabling the Inbox Zero requirement if you have messages in your inbox (it also doesn't allow you to change the Impulse Control setting in either case)
 
 ## Customizing
+
+## Frequently Asked Questions
