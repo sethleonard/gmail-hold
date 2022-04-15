@@ -24,30 +24,31 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 ## Installation
 1. Go to [Google Apps Scripts](https://script.google.com/home)
 2. Click 'New project'
-3. Delete all text in the code window (starts with `function myFunction() {` and ends with a `}`)
-4. Paste the contents of _Code.gs_ file into the window
-5. Save (disk icon)
-6. Click the gear icon (Project Settings) at the bottom of the menu on the far left
-7. Check the box next to _Show "appsscript.json" manifest file in editor_
-8. Return to the Code Editor (< > icon 3 items above gear icon)
-9. Click on _appsscript.json_
-10. Delete all text in the code window (starts with `{ "timeZone": "America/New_York",` and ends with a `"runtimeVersion": "V8" }`)
-11. Paste the contents of _appsscript.json_ file into the window
-12. Save (disk icon)
-13. Click on _Code.js_
-14. Make sure the menu at the top reads Run - Debug - homepage; if it doesn't, click the third item and choose 'homepage'
-15. Click _Run_
-16. When the popup appears, click _Review Permissions_
-17. Confirm your Google Account
-18. Click _Allow_
-19. Wait until the _Execution log_ window shows `Execution completed`
+3. Click 'Untitled Project' and rename your app _Gmail Hold_ (or something else if you want)
+4. Delete all text in the code window (starts with `function myFunction() {` and ends with a `}`)
+5. Paste the contents of _Code.gs_ file into the window
+6. Save (disk icon)
+7. Click the gear icon (Project Settings) at the bottom of the menu on the far left
+8. Check the box next to _Show "appsscript.json" manifest file in editor_
+9. Return to the Code Editor (< > icon 3 items above gear icon)
+10. Click on _appsscript.json_
+11. Delete all text in the code window (starts with `{ "timeZone": "America/New_York",` and ends with a `"runtimeVersion": "V8" }`)
+12. Paste the contents of _appsscript.json_ file into the window
+13. Save (disk icon)
+14. Click on _Code.js_
+15. Make sure the menu at the top reads Run - Debug - homepage; if it doesn't, click the third item and choose 'homepage'
+16. Click _Run_
+17. When the popup appears, click _Review Permissions_
+18. Confirm your Google Account
+19. Click _Allow_
+20. Wait until the _Execution log_ window shows `Execution completed`
   - Sometimes it takes a while, and sometimes it times out
   - This shouldn't be an issue if you've already accepted the permissions
-20. Click _Deploy_ in the upper right portion of the screen and choose _Test deployments_
-21. Next to `Application(s): Gmail`, click _Install_
-22. Go to your [Gmail](https://mail.google.com/mail/u/0/#inbox)
-23. A new mail icon should appear on the right side of the screen (make sure you are showing the side panel)
-24. gmail-hold is now installed; continue reading to set up the required filter
+21. Click _Deploy_ in the upper right portion of the screen and choose _Test deployments_
+22. Next to `Application(s): Gmail`, click _Install_
+23. Go to your [Gmail](https://mail.google.com/mail/u/0/#inbox)
+24. A new mail icon should appear on the right side of the screen (make sure you are showing the side panel)
+25. gmail-hold is now installed; continue reading to set up the required filter
 
 ## Configuring the gmail-hold Filter
 1. The filter is required to "hide" incoming email messages so you can later release them on your schedule
@@ -106,7 +107,7 @@ Make sure your icon is square or it will be stretched and look weird
 You can uninstall by following these steps:
 1. Remove the filter you created that moves all of your incoming mail to the emailHold label
 2. Move all messages from the emailHold label to your inbox, either manually or by releasing them using the app button
-3. Open the app editor in [Google Apps Scripts](https://script.google.com/home)
+3. Open the app editor for Gmail Hold (created during installation) in [Google Apps Scripts](https://script.google.com/home)
 4. Click _Deploy_ in the upper right portion of the screen and choose _Test deployments_
 5. Next to `Application(s): Gmail`, click _Uninstall_
 6. Remove the emailHold label
