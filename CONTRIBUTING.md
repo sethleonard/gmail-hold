@@ -10,4 +10,4 @@ Use [Issues](https://github.com/sethleonard/gmail-hold/issues)
 Use [Issues](https://github.com/sethleonard/gmail-hold/issues)
 
 ## Donate
-If you like gmail-hold and want to show your appreciation, you can [buy my next cup of tea](https://www.buymeacoffee.com/sethleonard)
+If you like gmail-hold and want to show your appreciation, you can [pay for my next cup of tea](https://www.buymeacoffee.com/sethleonard)
