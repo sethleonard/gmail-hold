@@ -60,7 +60,7 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 7. Next to `Doesn't have`, enter a long string of random characters (one recommendation is 'gmailHold123abc456def00000'); this will filter all messages that don't have this string, which should be _all_ messages, as none should contain this string
 8. Click _Create filter_
 9. Check the box next to `Skip the inbox (Archive it)`
-10. Check the box next to `Apply the label'` and choose _emailHold_
+10. Check the box next to `Apply the label` and choose _emailHold_
 11. Click the _Create filter_
 12. Your filter should now be functional
 
@@ -92,9 +92,13 @@ to:
       
 ### Change app icon
 Change:
-`      "logoUrl": "https://www.gstatic.com/images/icons/material/system/1x/email_black_48dp.png",`
+```
+      "logoUrl": "https://www.gstatic.com/images/icons/material/system/1x/email_black_48dp.png",
+```
 to:
-`      "logoUrl": "URL TO YOUR ICON HERE",`
+```
+      "logoUrl": "URL TO YOUR ICON HERE",
+```
 Make sure your icon is square or it will be stretched and look weird
 
 # Frequently Asked Questions
