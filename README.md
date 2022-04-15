@@ -1,23 +1,25 @@
 # gmail-hold
 Gmail add-on that allows you to hold your incoming email until you are ready to process it
 
-## How it Works (installation details below)
+# How it Works (installation details below)
 - Files must be copied to Google Scripts and then installed as a test deployment by your Google user 
 - You will also need to create a filter that automatically moves all incoming email to a hidden Gmail label
 - This add-on then moves those messages out of the hidden Gmail label and into your inbox
 
-## Settings and Features
+# Settings and Features
 - Choose how many times per day you would like to be able to release your email into your inbox (between 1-8)
 - Optionally require that your inbox be empty (Inbox Zero) before you can release email (regardless of remaining release count)
 - Optionally enable "Impulse Control" which limits your ability to change settings if limits have been reached
 
-## Requirements
+# Requirements
 - A Gmail account
 - Accept that gmail-hold only works if you exclusively use the official Gmail website or Gmail mobile apps (and the mobile apps require an extra step to release email). It will not work if you use any 3rd party apps or tools and you will not be able to access new email.
 - Accept that you will not be able to receive incoming messages until you release them, and that the app is designed to limit how many times in a day you can release them.
 - Accept that you can potentially run out of email releases in a day, leaving you unable to receive new messages until the next day (see FAQ for possible but not recommended work arounds).
 - Read the FAQ.
 - Use the app at your own risk.
+
+# Installation, Configuration, and Use
 
 ## Installation
 1. Go to [Google Apps Scripts](https://script.google.com/home)
@@ -73,6 +75,9 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
   - Whether you would like to require Inbox Zero to release emails
   - Whether you would like to impose 'Impulse Control', which keeps you from changing the number of releases if you've already hit your limit, or from disabling the Inbox Zero requirement if you have messages in your inbox (it also doesn't allow you to change the Impulse Control setting in either case)
 
-## Customizing
+# Customizing
 
-## Frequently Asked Questions
+# Frequently Asked Questions
+
+# Contributing, Feature Requests, and Bug Reports
+See CONTRIBUTING
