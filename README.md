@@ -16,7 +16,7 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 - Accept that gmail-hold only works if you exclusively use the official Gmail website or Gmail mobile apps (and the mobile apps require an extra step to release email). It will not work if you use any 3rd party apps or tools and you will not be able to access new email.
 - Accept that you will not be able to receive incoming messages until you release them, and that the app is designed to limit how many times in a day you can release them.
 - Accept that you can potentially run out of email releases in a day, leaving you unable to receive new messages until the next day (see FAQ for possible but not recommended work arounds).
-- Read the [FAQ](#FAQ).
+- Read the [FAQ](#frequently-asked-questions).
 - Use the app at your own risk.
 
 # Installation, Configuration, and Use
