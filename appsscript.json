@@ -1,0 +1,49 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Gmail",
+        "version": "v1",
+        "serviceId": "gmail"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly",
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.labels",
+    "https://www.googleapis.com/auth/gmail.metadata",
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/gmail.modify",
+    "https://www.googleapis.com/auth/script.locale"
+  ],
+  "runtimeVersion": "DEPRECATED_ES5",
+  "addOns": {
+    "common": {
+      "name": "gmail hold",
+      "logoUrl": "https://www.gstatic.com/images/icons/material/system/1x/email_black_48dp.png",
+      "useLocaleFromApp": true,
+      "homepageTrigger": {
+        "runFunction": "homepage",
+        "enabled": true
+      },
+      "universalActions": [
+        {
+          "label": "GitHub",
+          "openLink": "https://github.com/sethleonard/gmail-hold"
+        }
+      ]
+    },
+    "gmail": {
+      "useLocaleFromApp": true,
+      "contextualTriggers": [
+        {
+          "unconditional": {},
+          "onTriggerFunction": "homepage"
+        }
+      ]
+    }
+  }
+}
