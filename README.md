@@ -115,6 +115,16 @@ You can uninstall by following these steps:
 6. Next to `Application(s): Gmail`, click _Uninstall_
 7. Close everything, it's uninstalled
 
+## Is there a way to test it out before I hide all of my incoming email?
+Yes. Here's a good test run:
+1. Once you install the add-on, open the app to ensure the label is properly created
+2. Move some existing messages into the _emailHold_ label
+  - Move the messages, don't just add the label, so they do not appear in your inbox
+3. Release your email using the add-on button
+4. Your messages should be moved to your inbox
+5. That's it. That's the whole add-on, other than the settings. Once you set up your filter, it will be the same, except all of your incoming email messages will automatically be moved to the _emailHold_ label and archived so they are not in your inbox until you release them.
+
+
 ## Why didn't you just release this as an add-on that can be installed in Gmail?
 Google has an unfortunate combination of not-very-granular permission scopes and increased requirements for permission scopes that require a lot of user data. So, even though gmail-hold does not collect any data, read any messages, send any messages, or really do anything but add and remove message labels, it requires a high level of permission scope, based on what scopes Google offers. The scopes required to change message labels are the same as those that give an app pretty much full access to all Gmail data. To get an app approved by Google with that level of access requires a lot of extra steps from a developer. This is normally a good thing for protecting users, but for gmail-hold, was a lot of extra effort. My concern was that I would go through all of that effort only to have Google reject the app anyways, as it doesn't improve Gmail's functionality or productivity, which are their primary use cases for add-ons. In fact, it _deliberately hinders_ Gmail functionality. This app is also not quite mainstream functionality, and I had concerns about larger numbers of the general public not understanding the app, installing it, and then complaining to me that they couldn't read their email. So, it's saved for those with the know-how necessary to manually install.
 
