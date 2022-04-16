@@ -35,7 +35,7 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 11. Delete all text in the code window (starts with `{ "timeZone": "America/New_York",` and ends with a `"runtimeVersion": "V8" }`)
 12. Paste the contents of _appsscript.json_ file into the window
 13. Save (disk icon)
-14. Click on _Code.js_
+14. Click on _Code.gs_
 15. Make sure the menu at the top reads Run - Debug - homepage; if it doesn't, click the third item and choose 'homepage'
 16. Click _Run_
 17. A 'waiting' circle spins for a bit; when the popup appears, click _Review Permissions_
