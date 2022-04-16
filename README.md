@@ -38,17 +38,19 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 14. Click on _Code.js_
 15. Make sure the menu at the top reads Run - Debug - homepage; if it doesn't, click the third item and choose 'homepage'
 16. Click _Run_
-17. When the popup appears, click _Review Permissions_
-18. Confirm your Google Account
-19. Click _Allow_
-20. Wait until the _Execution log_ window shows `Execution completed`
+17. A 'waiting' circle spins for a bit; when the popup appears, click _Review Permissions_
+18. You will likely get a message, titled _Google hasn’t verified this app_ that states that you, the developer, have not verified the app with Google
+19. Assuming you want to continue (the code is open source: feel free to see if there are any privacy issues), click _Advanced_, then _Go to Gmail Hold (unsafe)_
+21. Confirm your Google Account
+22. Click _Allow_
+23. Wait until the _Execution log_ window shows `Execution completed`
   - Sometimes it takes a while, and sometimes it times out
   - This shouldn't be an issue if you've already accepted the permissions
-21. Click _Deploy_ in the upper right portion of the screen and choose _Test deployments_
-22. Next to `Application(s): Gmail`, click _Install_
-23. Go to your [Gmail](https://mail.google.com/mail/u/0/#inbox)
-24. A new mail icon should appear on the right side of the screen (make sure you are showing the side panel)
-25. gmail-hold is now installed; continue reading to set up the required filter
+24. Click _Deploy_ in the upper right portion of the screen and choose _Test deployments_
+25. Next to `Application(s): Gmail`, click _Install_
+26. Go to your [Gmail](https://mail.google.com/mail/u/0/#inbox)
+27. A new mail icon should appear on the right side of the screen (make sure you are showing the side panel)
+28. gmail-hold is now installed; continue reading to set up the required filter
 
 ## Configuring the gmail-hold Filter
 1. The filter is required to "hide" incoming email messages so you can later release them on your schedule
