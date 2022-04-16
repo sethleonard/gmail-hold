@@ -108,9 +108,10 @@ You can uninstall by following these steps:
 1. Remove the filter you created that moves all of your incoming mail to the emailHold label
 2. Move all messages from the emailHold label to your inbox, either manually or by releasing them using the app button
 3. Remove the emailHold label
-4. Open the app editor for Gmail Hold (created during installation) in [Google Apps Scripts](https://script.google.com/home)
+4. Open the gmail-hold add-on, click the three vertical dots next to the X (close button), and select Manage add-on; this will take you to the Scripts page for the app
 5. Click _Deploy_ in the upper right portion of the screen and choose _Test deployments_
 6. Next to `Application(s): Gmail`, click _Uninstall_
+7. Close everything, it's uninstalled
 
 ## Why didn't you just release this as an add-on that can be installed in Gmail?
 Google has an unfortunate combination of not-very-granular permission scopes and increased requirements for permission scopes that require a lot of user data. So, even though gmail-hold does not collect any data, read any messages, send any messages, or really do anything but add and remove message labels, it requires a high level of permission scope, based on what scopes Google offers. The scopes required to change message labels are the same as those that give an app pretty much full access to all Gmail data. To get an app approved by Google with that level of access requires a lot of extra steps from a developer. This is normally a good thing for protecting users, but for gmail-hold, was a lot of extra effort. My concern was that I would go through all of that effort only to have Google reject the app anyways, as it doesn't improve Gmail's functionality or productivity, which are their primary use cases for add-ons. In fact, it _deliberately hinders_ Gmail functionality. This app is also not quite mainstream functionality, and I had concerns about larger numbers of the general public not understanding the app, installing it, and then complaining to me that they couldn't read their email. So, it's saved for those with the know-how necessary to manually install.
