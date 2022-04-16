@@ -2,6 +2,9 @@
 // gmail-hold
 // license: https://github.com/sethleonard/gmail-hold/blob/main/LICENSE
 // homepage: https://github.com/sethleonard/gmail-hold
+//
+// version 1.0
+// last updated 2022-04-16
 ///////////////////////////////////////////////////////////////////////////
 
 function homepage(e) {
