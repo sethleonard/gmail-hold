@@ -26,12 +26,12 @@ Gmail add-on that allows you to hold your incoming email until you are ready to 
 2. Click 'New project'
 3. Click 'Untitled Project' and rename your app _Gmail Hold_ (or something else if you want)
 4. Delete all text in the code window (starts with `function myFunction() {` and ends with a `}`)
-5. Paste the contents of _Code.gs_ file into the window
+5. Paste the contents of [Code.gs](Code.gs) file into the window
 6. Save (disk icon)
 7. Click the gear icon (Project Settings) at the bottom of the menu on the far left
 8. Check the box next to _Show "appsscript.json" manifest file in editor_
 9. Return to the Code Editor (< > icon 3 items above gear icon)
-10. Click on _appsscript.json_
+10. Click on [appsscript.json](appsscript.json)
 11. Delete all text in the code window (starts with `{ "timeZone": "America/New_York",` and ends with a `"runtimeVersion": "V8" }`)
 12. Paste the contents of _appsscript.json_ file into the window
 13. Save (disk icon)
